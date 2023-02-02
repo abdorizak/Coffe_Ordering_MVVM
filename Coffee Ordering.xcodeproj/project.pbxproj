@@ -19,6 +19,7 @@
 		10EEA3C0298A5D8100154F14 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEA3BF298A5D8100154F14 /* UIView+Ext.swift */; };
 		10EEA3C2298A68E400154F14 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEA3C1298A68E400154F14 /* UIColor+Ext.swift */; };
 		10EEA3C4298A86B200154F14 /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEA3C3298A86B200154F14 /* AddOrderViewController.swift */; };
+		10EEA3C6298AEF9700154F14 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEA3C5298AEF9700154F14 /* TextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		10EEA3BF298A5D8100154F14 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		10EEA3C1298A68E400154F14 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		10EEA3C3298A86B200154F14 /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
+		10EEA3C5298AEF9700154F14 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				10EEA3BB298A50A600154F14 /* Label */,
 				10EEA3BA298A509300154F14 /* Cells */,
+				10EEA3C7298AEFAF00154F14 /* TextField */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -171,6 +174,14 @@
 				10EEA3C1298A68E400154F14 /* UIColor+Ext.swift */,
 			);
 			path = Extentions;
+			sourceTree = "<group>";
+		};
+		10EEA3C7298AEFAF00154F14 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				10EEA3C5298AEF9700154F14 /* TextField.swift */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10EEA3C0298A5D8100154F14 /* UIView+Ext.swift in Sources */,
+				10EEA3C6298AEF9700154F14 /* TextField.swift in Sources */,
 				108D38D729865DF4000FF346 /* HomeViewController.swift in Sources */,
 				10EEA3B9298A508900154F14 /* AddNewOrderCell.swift in Sources */,
 				108D38EF298A4DD5000FF346 /* Network Manager.swift in Sources */,
